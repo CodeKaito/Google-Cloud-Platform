@@ -123,6 +123,8 @@ Le caratteristiche principali di Google Cloud SQL includono:
 
 6. Supporto per MySQL, PostgreSQL e SQL Server: Cloud SQL supporta i principali motori di database relazionali, tra cui MySQL, PostgreSQL e SQL Server. Ciò consente di migrare facilmente i tuoi database esistenti su Cloud SQL o creare nuovi database utilizzando uno dei motori supportati.
 
+
+
 Cloud SQL semplifica la gestione dei database relazionali, offrendo una soluzione completamente gestita che riduce il carico operativo e consente di concentrarsi sullo sviluppo delle applicazioni. È adatto per una vasta gamma di casi d'uso, tra cui applicazioni web, applicazioni aziendali, sviluppo e test, e molto altro ancora.
 
 ## Dataflow
