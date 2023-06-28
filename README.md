@@ -128,3 +128,45 @@ Le caratteristiche principali di Google Cloud SQL includono:
 Cloud SQL semplifica la gestione dei database relazionali, offrendo una soluzione completamente gestita che riduce il carico operativo e consente di concentrarsi sullo sviluppo delle applicazioni. È adatto per una vasta gamma di casi d'uso, tra cui applicazioni web, applicazioni aziendali, sviluppo e test, e molto altro ancora.
 
 ## Dataflow
+
+## Cloud Spanner
+Cloud Spanner è un servizio di database completamente gestito offerto da Google Cloud. È progettato per offrire una combinazione di scalabilità orizzontale, coerenza dei dati e disponibilità globale. Cloud Spanner è un database relazionale distribuito che consente di archiviare dati strutturati in tabelle con schemi definiti. 
+
+Ciò che rende Cloud Spanner unico è la sua capacità di fornire coerenza dei dati a livello di lettura e scrittura in un ambiente distribuito su larga scala. Utilizzando algoritmi di distribuzione dei dati e di sincronizzazione delle transazioni avanzati, Cloud Spanner consente alle applicazioni di accedere ai dati in modo coerente e affidabile, indipendentemente dalla loro posizione geografica. 
+
+Cloud Spanner è in grado di scalare automaticamente le risorse in base alle esigenze di carico, consentendo alle applicazioni di gestire grandi volumi di dati e picchi di traffico senza problemi. Inoltre, fornisce funzionalità di backup, ripristino e replica automatica per garantire la durabilità dei dati.
+
+Il servizio Cloud Spanner è ampiamente utilizzato in scenari in cui la coerenza dei dati è fondamentale, ad esempio nel settore finanziario, nelle applicazioni di e-commerce e nelle piattaforme di gioco online. Offre inoltre integrazioni con altre soluzioni di Google Cloud, consentendo alle applicazioni di sfruttare appieno l'ecosistema di servizi offerto dalla piattaforma.
+
+### True Time
+TrueTime è un componente chiave di Google Cloud Spanner che fornisce un'accurata sincronizzazione dell'orologio in un ambiente distribuito su larga scala. In un sistema distribuito, è cruciale avere un orologio coerente tra i nodi per garantire la coerenza dei dati e la corretta esecuzione delle transazioni.
+
+TrueTime si basa su una combinazione di algoritmi e tecnologie per fornire un'indicazione precisa dell'orologio e la stima dell'incertezza temporale. Utilizza orologi atomici hardware presenti all'interno dei data center di Google per ottenere un'alta precisione e affidabilità nell'indicazione dell'orologio.
+
+La caratteristica distintiva di TrueTime è la capacità di fornire un'indicazione dell'orologio con una garanzia di precisione e coerenza globale. Ciò significa che, indipendentemente dalla posizione geografica del nodo di Cloud Spanner, TrueTime fornisce un'indicazione dell'orologio che rispetta l'ordine causale delle operazioni e garantisce una precisione compresa nell'incertezza temporale stimata.
+
+L'utilizzo di TrueTime in Cloud Spanner consente di gestire la coerenza dei dati tra le regioni geografiche e fornire una base affidabile per l'esecuzione di transazioni distribuite. Ciò consente alle applicazioni di Cloud Spanner di fornire una consistenza forte dei dati, mantenendo allo stesso tempo la scalabilità e la disponibilità richieste in un ambiente distribuito.
+
+In sintesi, TrueTime di Google Cloud Spanner è un componente fondamentale per garantire la coerenza dei dati e l'accuratezza temporale in un sistema distribuito su larga scala.
+
+## Big Table
+Google Cloud Bigtable è un servizio di database non relazionale altamente scalabile e gestito offerto da Google Cloud. Si basa sulla tecnologia Bigtable, un sistema di archiviazione distribuito a colonne progettato per gestire grandi volumi di dati con velocità e affidabilità.
+
+Bigtable è un database chiave-valore che organizza i dati in tabelle sparse e distribuisce i dati su un cluster di server per consentire la scalabilità orizzontale. È in grado di gestire petabyte di dati e supporta una latenza delle operazioni molto bassa, rendendolo adatto per applicazioni ad elevate prestazioni e con grandi volumi di dati.
+
+Caratteristiche principali di Google Cloud Bigtable includono:
+
+1. Scalabilità: Bigtable può scalare orizzontalmente in modo dinamico per gestire grandi volumi di dati e un elevato carico di lavoro. È in grado di bilanciare automaticamente i dati e le richieste tra i nodi del cluster per garantire prestazioni ottimali.
+
+2. Alta velocità: Bigtable offre prestazioni di lettura e scrittura ad alta velocità. È progettato per gestire carichi di lavoro intensivi in termini di I/O e fornisce tempi di risposta rapidi per le operazioni sul database.
+
+3. Affidabilità: Google Cloud Bigtable offre una solida affidabilità grazie alla distribuzione dei dati su più nodi e alla replica automatica dei dati all'interno di una regione. Ciò garantisce la durabilità dei dati e la disponibilità continua del servizio.
+
+4. Integrazione con l'ecosistema Google Cloud: Bigtable si integra con altri servizi di Google Cloud, come Dataflow, BigQuery e Cloud Storage, consentendo di costruire soluzioni complete per l'analisi dei dati e l'elaborazione in tempo reale.
+
+Bigtable è ampiamente utilizzato in scenari in cui è necessario gestire grandi volumi di dati con prestazioni elevate, come l'analisi dei dati, l'elaborazione in tempo reale, l'archiviazione di log e la gestione di contenuti web.
+
+I costi di utilizzo di Google Cloud Bigtable dipendono da fattori come le dimensioni del cluster, la quantità di dati memorizzati e il traffico di rete. È possibile consultare la documentazione ufficiale di Google Cloud o utilizzare il calcolatore dei costi di Google Cloud per ottenere una stima più precisa dei costi associati all'utilizzo di Bigtable.
+
+## 
+
