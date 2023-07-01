@@ -168,5 +168,23 @@ Bigtable è ampiamente utilizzato in scenari in cui è necessario gestire grandi
 
 I costi di utilizzo di Google Cloud Bigtable dipendono da fattori come le dimensioni del cluster, la quantità di dati memorizzati e il traffico di rete. È possibile consultare la documentazione ufficiale di Google Cloud o utilizzare il calcolatore dei costi di Google Cloud per ottenere una stima più precisa dei costi associati all'utilizzo di Bigtable.
 
-## 
 
+### Prestazione
+La distribuzione delle risorse può essere ottimizzata per migliorare le prestazioni dell'applicazione. Le prestazioni servono a garantire una qualità del servizio necessari a soddisfare i clienti oppure alcuni requisiti contrattuali.
+
+### Sicurezza
+La corretta distribuzione delle risorse può contribuire a garantire la sicurezza dell'applicazione. 
+
+### Gestione dei costi
+Il costo della soluzione ed il suo mantenimento deve tenere conto delle logiche di mercato. Costi più bassi possono portare a maggior competitività, costi elevati possono portare a tagli o chiusure.
+
+### Affidabilità
+Distribuzione delle risorse di ridondanza attraversi più datacenter aiuta a garantire la disponibilità.
+
+### Scalabilità
+Con una distribuzione adeguata è possibile aumentare o diminuire le risorse in base alle esigenze dell'appliazione.
+
+### Gestione semplificata
+
+
+## Compute Engine
